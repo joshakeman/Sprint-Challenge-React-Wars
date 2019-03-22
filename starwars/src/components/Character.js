@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Character = (props) => {
-    console.log(props)
+    // console.log('Your Props are ' + props.params)
     return (
-    <div>
-        <h3>Name: {}</h3>
+    <div class="character-card">
+        <h3>Name: {props.name}</h3>
     </div>
     )
 }

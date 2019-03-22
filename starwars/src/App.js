@@ -35,18 +35,20 @@ class App extends Component {
 
 
   render() {
-    const Luke = this.state.starwarsChars[0]
-    console.log(Luke)
+    // console.log(state)
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <Character params={this.state.starwarsChars[0]} /> 
+        {/* <Character params={Luke} />  */}
         {/* {this.state.starwarsChars.map((char, index) => {
-          <Character 
+          <CharacterList 
           key={index}
           charProp={char}
           />
         })} */}
+        <CharacterList 
+          list={this.state.starwarsChars}
+          />
       </div>
     );
   }
