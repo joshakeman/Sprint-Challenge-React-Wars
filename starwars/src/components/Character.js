@@ -15,7 +15,7 @@ const Character = (props) => {
                 <li className="list-item"><strong>Hair Color: </strong> {props.charInfo.hair_color}</li>
             </ul>
         </div>
-        <img src="http://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/256/Luke-Skywalker-02-icon.png"></img>
+        <img src="https://vignette.wikia.nocookie.net/clubpenguin/images/a/ac/Star_Wars_Interface_icon.png/"></img>
     </div>
     )
 }
